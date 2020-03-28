@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuel de la Torre</title>
+  <link rel="shortcut icon" href="./assets/favicon.png" />
+
+  <!-- StyleSheets -->
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+<body class="bg-gray-100">
+  <div id="main" class="relative h-screen border-b-2 lg:grid lg:grid-cols-6 lg:gap-6">
+    <!-- CSS: right sight border as line seperator 
+      - Phone top - down
+      - Lap right left.
+    -->
+    <div id="left" class="left lg:my-0 my-20 col-span-2">
+      <div class="img-container">
+        <img id='img' src="" alt="" class="img m-auto w-64 main-image rounded-lg" >
+      </div>
+    </div>
+
+    <!-- Main - Contents -->
+    <div id="contents" class="px-6 child col-span-4">
+      <div id="name" class="lg:text-left text-5xl text-center"></div>
+      <div id="role" class="lg:text-left text-3xl text-gray-600 text-center italic"></div>
+      <div id="connects" class="lg:text-left text-3xl mt-8 text-center"></div>
+      <a target="_top" id="mail" class="block lg:text-left text-md my-1 text-center text-base text-gray-600"></a>
+      <div class="grid grid-cols-2 gap-8 py-16">
+        <div class="col-span-2 md:col-span-1 px-4">
+          <div class="text-lg font-semibold">I am:</div>
+          <ul class="list-disc text-base">
+            <li>a curious, creative and detail-oriented person.</li>
+            <li>a humble coder.</li>
+            <li>a team player.</li>
+            <li>a quiet human.</li>
+            <li>an entrepreneur.</li>
+            <li>mostly, a <i>doer</i>.</li>
+          </ul>
+        </div>
+        <div class="col-span-2 md:col-span-1 px-4">
+          <div class="text-lg font-semibold">I love:</div>
+          <ul class="list-disc text-base">
+            <li>to build products: from design to launch.</li>
+            <li>to solve high impact problems.</li>
+            <li>to keep learning.</li>
+            <li>building companies.</li>
+            <li>outdoors.</li>
+            <li>craft beer, coffee and pizza.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <ion-icon name="heart"></ion-icon> -->
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="./data.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

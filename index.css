@@ -1,0 +1,21 @@
+@media (min-width: 1024px) { 
+  #main {
+    padding-top: 10%;
+    font-size: 1.2em;
+    overflow: hidden;
+  }
+
+  .main-image {
+    width: 80%;
+  }
+
+  .child {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #main .img-container {
+    position: relative;
+  }
+}
