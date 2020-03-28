@@ -1,4 +1,4 @@
-const mail = 'manuelmhtr@gmail.com';
+const mail = 'm@nuel.mx';
 
 const main = {
   mail,
