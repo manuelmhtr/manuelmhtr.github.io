@@ -1,8 +1,16 @@
-@media (min-width: 1024px) { 
+@media (min-width: 1024px) {
+  a {
+    text-decoration: underline;
+  }
+
   #main {
     padding-top: 10%;
     font-size: 1.2em;
     overflow: hidden;
+  }
+
+  #main .img-container {
+    position: relative;
   }
 
   .main-image {
@@ -16,7 +24,7 @@
     overflow: hidden;
   }
 
-  #main .img-container {
-    position: relative;
+  .text-lg {
+    line-height: 3rem;
   }
 }
